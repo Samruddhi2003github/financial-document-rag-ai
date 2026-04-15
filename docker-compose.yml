@@ -1,0 +1,7 @@
+services:
+  finance-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./finance_system.db:/app/finance_system.db
