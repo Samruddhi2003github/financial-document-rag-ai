@@ -3,7 +3,7 @@
 ## 🚀 Overview
 A production-ready Financial Document Management API built with **FastAPI**. It features a **Two-Stage Retrieval-Augmented Generation (RAG)** pipeline designed to provide high-accuracy semantic search over financial reports, invoices, and agreements.
 
-## 🧠 AI Architecture (Why this stands out)
+## 🧠 AI Architecture 
 Unlike basic vector search systems, this project implements a **Two-Stage Retrieval Architecture**:
 1.  **Stage 1 (Retrieval):** Uses **FAISS** (Facebook AI Similarity Search) with `all-MiniLM-L6-v2` embeddings to fetch the top 20 candidate chunks.
 2.  **Stage 2 (Reranking):** Uses **FlashRank** (Cross-Encoder) to re-evaluate those candidates, ensuring the final top 5 results are contextually and financially relevant.
