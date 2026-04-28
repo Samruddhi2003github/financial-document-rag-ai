@@ -10,3 +10,5 @@ sentence-transformers
 qdrant-client
 flashrank
 faiss-cpu
+streamlit
+requests
